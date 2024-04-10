@@ -13,3 +13,20 @@ print(name)
 # Output:
 # Harry
 #     is a good boy
+
+
+# string functions 
+naam = "   Dhiraj    "
+name2="Ram, Hari, Shyam"
+print(naam.strip())             #strip function removes the extra spaces
+print(len(naam))                #length of string
+print(naam.lower())
+print(naam.upper())
+print(naam.replace("r","t"))
+print(naam.replace("ar","t"))
+print(name2.replace(",",''))
+
+#concating 2 strings
+st1="Dhiraj"
+st2="Chaurasiya"
+print(st1+' '+st2)
