@@ -15,7 +15,7 @@ print(name)
 #     is a good boy
 
 
-# string functions 
+#------->string functions<-------------#
 naam = "   Dhiraj    "
 name2="Ram, Hari, Shyam"
 print(naam.strip())             #strip function removes the extra spaces
@@ -26,7 +26,19 @@ print(naam.replace("r","t"))
 print(naam.replace("ar","t"))
 print(name2.replace(",",''))
 
-#concating 2 strings
+#------->concating 2 strings<---------#
 st1="Dhiraj"
 st2="Chaurasiya"
 print(st1+' '+st2)
+
+#-------------------------------------------------------#
+#to add using template
+temp = "This is {} and he is a good boy".format(st1)
+print(temp)
+
+#several ways
+temp=f"this is {st2} and he is a good boy"
+print(temp)
+
+temp="This is {1} and he's surname isnot {0}".format(st1,st2)
+print(temp)
